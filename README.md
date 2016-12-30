@@ -1,7 +1,7 @@
 # Tooltipster for Webflow
 Easily add tooltips to your Weblow.io website, without leaving the "Designer" interface. 
 
-![webflow-logo](https://upload.wikimedia.org/wikipedia/en/f/fb/Webflow-logo-raster-blue-2015.png)
+![webflow-logo](http://uploads.webflow.com/55e93f06d996a5894512d00d/55dd1a448f79b836280d697f_png.png)
 
 ## Demo
 * [Demo page with instructions](http://tooltipster-for-webflow.webflow.io/)

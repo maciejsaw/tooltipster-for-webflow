@@ -1,6 +1,10 @@
 # Tooltipster for Webflow
 Easily add tooltips to your Weblow.io website, without leaving the "Designer" interface. 
 
+## Demo
+[Demo page](http://tooltipster-for-webflow.webflow.io/)
+[Webflow Designer read-only preview](https://preview.webflow.com/preview/tooltipster-for-webflow?preview=39d81ae683037bfa1f8c9de86a20c59c)
+
 ## Quick start
 
 ### Step 1:

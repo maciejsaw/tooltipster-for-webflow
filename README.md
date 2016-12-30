@@ -29,5 +29,4 @@ Add tooltips in Webflow Designer by using custom attributes
 * Add an attribute ```tooltipster="top"```
 * Add ```title="Your tooltip text``` attribute with your content
 
-You can use a suffix to the custom attribute to use a tooltip with a delay
-```tooltipster="top-delay"``
+You can use a suffix to the custom attribute to use a tooltip with a delay ```tooltipster="top-delay"```

@@ -2,7 +2,7 @@
 Easily add tooltips to your Weblow.io website, without leaving the "Designer" interface. 
 
 ## Demo
-* [Demo page](http://tooltipster-for-webflow.webflow.io/)
+* [Demo page with instructions](http://tooltipster-for-webflow.webflow.io/)
 * [Webflow Designer read-only preview](https://preview.webflow.com/preview/tooltipster-for-webflow?preview=39d81ae683037bfa1f8c9de86a20c59c)
 
 ## Quick start
@@ -28,3 +28,6 @@ This will load the scripts from a free server that hosts Github files.
 Add tooltips in Webflow Designer by using custom attributes
 * Add an attribute ```tooltipster="top"```
 * Add ```title="Your tooltip text``` attribute with your content
+
+You can use a suffix to the custom attribute to use a tooltip with a delay
+```tooltipster="top-delay"``

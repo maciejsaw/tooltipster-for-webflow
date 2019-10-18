@@ -16,6 +16,16 @@ var tooltipsterTriggerClose = {
     tap: true
 };
 
+var tooltipsterTriggerOpenOnClick = {
+    tap: true,
+    click: true
+};
+
+var tooltipsterTriggerCloseOnClick = {
+    scroll: true,
+    tap: true
+};
+
 function initTooltipster(containerToInit) {
     containerToInit = containerToInit || 'body';
     console.log(containerToInit);
@@ -118,6 +128,58 @@ function initTooltipster(containerToInit) {
         hideOnClick: false,
         animation: 'fade',
         delay: 800,
+        animationDuration: 150,
+        maxWidth: 280,
+        theme: 'tooltipster-borderless',
+        restoration: 'current'
+    });
+    $(containerToInit).not('.tooltipstered').find('[tooltipster="right-on-click"]:not(.tooltipstered)').tooltipster({
+        position: 'right',
+        trigger: 'custom',
+        triggerOpen: tooltipsterTriggerOpenOnClick,
+        triggerClose: tooltipsterTriggerClosOnClick,
+        hideOnClick: false,
+        animation: 'fade',
+        delay: 0,
+        animationDuration: 150,
+        maxWidth: 280,
+        theme: 'tooltipster-borderless',
+        restoration: 'current'
+    });
+    $(containerToInit).not('.tooltipstered').find('[tooltipster="top-on-click"]:not(.tooltipstered)').tooltipster({
+        position: 'top',
+        trigger: 'custom',
+        triggerOpen: tooltipsterTriggerOpenOnClick,
+        triggerClose: tooltipsterTriggerCloseOnClick,
+        hideOnClick: false,
+        animation: 'fade',
+        delay: 0,
+        animationDuration: 150,
+        maxWidth: 280,
+        theme: 'tooltipster-borderless',
+        restoration: 'current'
+    });
+    $(containerToInit).not('.tooltipstered').find('[tooltipster="left-on-click"]:not(.tooltipstered)').tooltipster({
+        position: 'left',
+        trigger: 'custom',
+        triggerOpen: tooltipsterTriggerOpenOnClick,
+        triggerClose: tooltipsterTriggerCloseOnClick,
+        hideOnClick: false,
+        animation: 'fade',
+        delay: 0,
+        animationDuration: 150,
+        maxWidth: 280,
+        theme: 'tooltipster-borderless',
+        restoration: 'current'
+    });
+    $(containerToInit).not('.tooltipstered').find('[tooltipster="bottom-on-click"]:not(.tooltipstered)').tooltipster({
+        position: 'bottom',
+        trigger: 'custom',
+        triggerOpen: tooltipsterTriggerOpenOnClick,
+        triggerClose: tooltipsterTriggerCloseOnClick,
+        hideOnClick: false,
+        animation: 'fade',
+        delay: 0,
         animationDuration: 150,
         maxWidth: 280,
         theme: 'tooltipster-borderless',

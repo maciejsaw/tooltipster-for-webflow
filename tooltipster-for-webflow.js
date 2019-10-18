@@ -137,7 +137,7 @@ function initTooltipster(containerToInit) {
         position: 'right',
         trigger: 'custom',
         triggerOpen: tooltipsterTriggerOpenOnClick,
-        triggerClose: tooltipsterTriggerClosOnClick,
+        triggerClose: tooltipsterTriggerCloseOnClick,
         hideOnClick: false,
         animation: 'fade',
         delay: 0,

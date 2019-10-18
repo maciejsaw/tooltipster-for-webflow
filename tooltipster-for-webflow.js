@@ -28,7 +28,6 @@ var tooltipsterTriggerCloseOnClick = {
 
 function initTooltipster(containerToInit) {
     containerToInit = containerToInit || 'body';
-    console.log(containerToInit);
     $(containerToInit).not('.tooltipstered').find('[tooltipster="top"]:not(.tooltipstered)').tooltipster({
         position: 'top',
         trigger: 'custom',

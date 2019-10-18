@@ -23,7 +23,8 @@ var tooltipsterTriggerOpenOnClick = {
 
 var tooltipsterTriggerCloseOnClick = {
     scroll: true,
-    tap: true
+    tap: true,
+    click: true
 };
 
 function initTooltipster(containerToInit) {
